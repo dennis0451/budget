@@ -1,1 +1,5 @@
-# After you write all your classes, use this file to call them all together and run your program
+from expenses import Expenses
+from total import Total
+from income import Income
+
+Income.deposit(500)
